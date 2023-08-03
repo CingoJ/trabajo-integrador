@@ -1,0 +1,12 @@
+article {
+  background-color: #fefbf9;
+  border-radius: 5px;
+  opacity: 0.9;
+  display: grid;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}

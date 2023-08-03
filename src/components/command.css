@@ -1,0 +1,19 @@
+.enlace {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+}
+
+.enlace:hover {
+  color: aqua;
+  text-decoration: double;
+}
+
+.enlace:active {
+  color: #0c6291;
+}
+
+.texto {
+  color: none;
+}

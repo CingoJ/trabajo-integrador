@@ -1,0 +1,20 @@
+.Navigation {
+  background-color: #8d918b;
+  padding: 5px;
+}
+
+.Navigation ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.Navigation ul li {
+  padding: 20px;
+  display: inline-block;
+  min-width: 5em;
+  margin: 0 0.5em;
+}
+
+.logonav {
+  width: 50%;
+}
