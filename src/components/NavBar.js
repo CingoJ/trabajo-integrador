@@ -15,10 +15,10 @@ function NavBar() {
           <Command link="/about" texto="Sobre Nosotros" />
         </li>
         <li>
-          <Command link="/" texto="Productos" />
+          <Command link="/venta" texto="Productos" />
         </li>
         <li>
-          <Command link="/" texto="Contacto" />
+          <Command link="/contact" texto="Contacto" />
         </li>
       </ul>
     </div>

@@ -1,0 +1,45 @@
+h1 {
+  font-size: 20px;
+  color: #fefbf9;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  background-color: #fefbf9;
+  display: flex;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.formulario label {
+  text-align: left;
+  display: block;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #0c6291;
+  box-sizing: content-box;
+  display: block;
+}
+
+.formulario button {
+  background: #0c6291;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: aqua;
+  color: black;
+}

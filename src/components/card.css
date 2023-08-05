@@ -1,0 +1,12 @@
+.card {
+  background-color: #8d918b;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.card img {
+  border-radius: 5px;
+  width: 90%;
+}
