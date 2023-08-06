@@ -1,12 +1,18 @@
 .card {
   background-color: #8d918b;
   border-radius: 5px;
-  width: 70%;
-  position: relative;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card img {
   border-radius: 5px;
-  width: 90%;
+  max-width: 100%;
+  size: 50px;
+}
+
+.card:hover {
+  border-color: aqua;
 }

@@ -8,40 +8,42 @@ import prod6 from "../assets/prod6-modulo.jpg";
 const Products = [
   {
     image: prod1,
-    nombre: "Cable USB tipo C",
+    titulo: "Cable USB tipo C",
     description:
       "Cable USB para carga o transferencia de datos con entrada tipo C.",
     price: "$990",
   },
   {
     image: prod2,
-    nombre: "Bateria Sumsang J2 Praim",
-    description: "Repuesto de bateria marca Sumsang, modelo J2 Praim.",
+    titulo: "Bateria Sumsang J2 Praim",
+    description:
+      "Repuesto de bateria marca Sumsang, modelo J2 Praim. (Apto para otros modelos)",
     price: "$2.560",
   },
   {
     image: prod3,
-    nombre: "Cámara trasera aiFone 12 Pro Max",
-    description: "Repuesto cámara dorsal marca aiFone, modelo 12 Pro Max.",
+    titulo: "Cámara trasera aiFone 12 Pro Max",
+    description:
+      "Repuesto cámara dorsal marca aiFone, modelo 12 Pro Max. (Apto para otros modelos)",
     price: "$15.240",
   },
   {
     image: prod4,
-    nombre: "Flash Wotorola Woto G8",
+    titulo: "Flash Wotorola Woto G8",
     description:
       "Repuesto de luz flash para smartphone marca Wotorola, modelo Woto G8.",
     price: "$10.236",
   },
   {
     image: prod5,
-    nombre: "Placa de carga Shiaomi Redmi Note 8",
+    titulo: "Placa de carga Shiaomi Redmi Note 8",
     description:
       "Repuesto placa de carga para smartphone marca Shiaomi, modelo Redmi Note 8.",
     price: "$12.480",
   },
   {
     image: prod6,
-    nombre: "Módulo Lehovo K5",
+    titulo: "Módulo Lehovo K5",
     description: "Repuesto de módulo smartphone marca Lehovo, modelo K5.",
     price: "$14.985",
   },
