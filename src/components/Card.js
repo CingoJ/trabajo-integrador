@@ -1,11 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
 import "./card.css";
 
 function Card(props) {
-  useEffect(() => {
-    console.log(props);
-  }, [props]);
   return (
     <div className="container">
       <div className="card">

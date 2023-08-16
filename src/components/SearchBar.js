@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./searchBar.css";
-import Products from "./Products";
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -28,19 +27,17 @@ const SearchBar = () => {
         value={searchInput}
       />
 
-      <table>
-        <tr>
-          <th></th>
-        </tr>
+      <ul>
+        <li></li>
 
         {Products.map((titulo) => {
           <div>
-            <tr>
-              <td>{Products.titulo}</td>
-            </tr>
+            <ul>
+              <li>{Products.titulo}</li>
+            </ul>
           </div>;
         })}
-      </table>
+      </ul>
     </div>
   );
 };
